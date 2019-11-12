@@ -1,0 +1,9 @@
+notifications:
+  webhooks:
+    urls:
+      - https://open.feishu.cn/officialapp/notify/08e035ee17fe16fc6af83af86dafacc7541aae4c27e394f4fb2cc09f3cca48a5
+    on_success: always # default: always
+    on_failure: always # default: always
+    on_start: never # default: never
+    on_cancel: always # default: always
+    on_error: always # default: always
